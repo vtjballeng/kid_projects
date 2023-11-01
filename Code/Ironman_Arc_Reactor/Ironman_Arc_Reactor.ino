@@ -40,7 +40,7 @@ void loop() {
     // Here we're using a moderately bright green color:
     int j=i-GROUPSIZE;
     int k=i+(NUMPIXELS-GROUPSIZE);
-    pixels.setPixelColor(i, pixels.Color(150, 150, 150));
+    pixels.setPixelColor(i, pixels.Color(170, 170, 170));
     pixels.setPixelColor(j, pixels.Color(0, 0, 0));
     pixels.setPixelColor(k, pixels.Color(0, 0, 0));
   //  pixels.setPixelColor(k, pixels.Color(150, 150, 150));
